@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Disclaimer" };
+export default function DisclaimerPage() {
+  return <div className="container narrow-page"><span className="eyebrow">IMPORTANT INFORMATION</span><h1>Educational disclaimer</h1><p className="lead">The content on this website is provided for general information and educational purposes only.</p><p>It is not an offer, solicitation, recommendation or personalized advice to buy, sell or hold any security, fund, currency or other financial product.</p><p>Investments involve risk, including the possible loss of principal. Past performance is not a reliable indicator of future results. Fund details, fees, tax treatment and regulations can change.</p><p>Readers should independently verify information using official fund documents, regulators and qualified tax or financial professionals familiar with their circumstances and country of residence.</p><p>Publishing general educational content does not establish an adviser-client relationship. Any future personalized advisory service will only be offered where legally permitted and appropriately authorized.</p></div>;
+}
